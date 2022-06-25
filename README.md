@@ -19,13 +19,7 @@ import (
 
 func main() {
     // ...
-	var env  Env
-    var vars map[Var]bool
-
-    expr.Eval(env)
-    expr.Check(vars)
-
-    // ...
+		expr.Eval(expr)
 }
 
 ```
